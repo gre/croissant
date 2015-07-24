@@ -15,7 +15,7 @@ and be sure they are loaded and ready to be drawn on Canvas or used in WebGL for
 ```js
 var croissant = require("croissant");
 
-var loader = croissant.loader({
+var cancellation = croissant.loader({
   "video/webm": "cats.webm",
   "video/mp4": "cats.mp4",
   "image/png": "cats.fallback.png"
@@ -34,7 +34,7 @@ var loader = croissant.loader({
 
 ## Decorators
 
-There is currently 2 decorators:
+There are currently 2 decorators:
 
 - `timeout(loadFn, duration)`: creates a loader that interrupt loadFn if still not resolved after a duration (in milliseconds).
 - `fallbackBlack(loadFn)`: creates an always successful loader that provides a black image in case loadFn failed (1 pixel black image).
