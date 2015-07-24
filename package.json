@@ -1,0 +1,29 @@
+{
+  "name": "croissant",
+  "version": "0.1.0",
+  "description": "A multimedia resource loader with error handling and cancellation.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gre/croissant.git"
+  },
+  "keywords": [
+    "browser",
+    "loader",
+    "multimedia",
+    "video",
+    "image",
+    "resource",
+    "assets",
+    "mimetype"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gre/croissant/issues"
+  },
+  "homepage": "https://github.com/gre/croissant#readme",
+  "dependencies": {
+    "object-assign": "^3.0.0"
+  }
+}
