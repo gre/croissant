@@ -25,5 +25,8 @@
   "homepage": "https://github.com/gre/croissant#readme",
   "dependencies": {
     "object-assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.0.0-rc-1"
   }
 }

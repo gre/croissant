@@ -35,7 +35,7 @@ module.exports = function (descr, success, failure) {
     ldImgs();
   }
   else {
-    current = loadVideo(videos,function (video) {
+    current = loadVideo(videos, function (video) {
       success({ video: video });
     }, function (e) {
       if (Object.keys(imgs).length)
